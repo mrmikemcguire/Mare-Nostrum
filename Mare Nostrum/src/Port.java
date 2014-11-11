@@ -1,8 +1,14 @@
 
 public abstract class Port
 	{
-	public String name;
-	public String location;
-	public String wares;
-	public double busynessRating;
+	protected String name;
+	protected String location;
+	protected String wares;
+	protected double busynessRating;
+	
+	public void Port(String w, double br)
+		{
+		wares = w;
+		busynessRating = br;
+		}
 	}
